@@ -2,19 +2,55 @@
   display: block;
 }
 
+/* PREVIEW LAYER */
 .video-preview {
   width: 300px;
   display: inline-block;
   vertical-align: top;
   margin-right: 15px;
 }
+
+/* THUMBNAIL LAYER */
+.thumbnail-row {
+  margin-bottom: 12px;
+}
 .thumbnail {
   width: 300px;
 }
+
+/* LOGO LAYER */
+.channel-picture {
+  display: inline-block;
+  width: 50px;
+  vertical-align: top;
+}
+.profile-picture {
+  width: 40px;
+  border-radius: 50%;
+}
+
+/* TEXT LAYER */
+.video-info {
+  display: inline-block;
+  width: 200px;
+}
+p {
+  font-family: Roboto, Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .video-title {
-  width: 300px;
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 12px;
+}
+.video-author,
+.video-starts {
+  font-size: 12px;
+  color: rgb(96, 96, 96);
 }
 .video-author {
-}
-.video-starts {
+  margin-bottom: 4px;
 }
