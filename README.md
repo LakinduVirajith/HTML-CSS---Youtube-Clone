@@ -68,8 +68,14 @@ Ex: font-family: 'Roboto', 'Open Sans', Helvetica, Arial, sans-serif;
 
 # display: flex;
 
-# flex-direction: row
+# flex-direction: row;
 
-# flex: 1
+# flex: 1;
 
 # flex-shrink: 0;
+
+# border-bottom-width: 1px;
+
+# border-bottom-style: solid;
+
+# border-bottom-color: rgb(228, 228, 228);

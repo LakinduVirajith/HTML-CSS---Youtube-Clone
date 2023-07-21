@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position Practice</title>
+  </head>
+  <body style="height: 200vh; padding-top: 60px; padding-left: 106px">
+    <!-- Example 1 -->
+    <div
+      style="
+        background-color: black;
+        color: white;
+        position: fixed;
+        top: 68px;
+        bottom: 500px;
+        left: 160px;
+        right: 160px;
+      "
+    >
+      fixed
+    </div>
+    <div
+      style="
+        position: absolute;
+        background-color: red;
+        color: white;
+        top: 70px;
+        right: 10px;
+        padding: 12px;
+      "
+    >
+      absolute
+    </div>
+    <div
+      style="
+        background-color: lightblue;
+        height: 200px;
+        width: 200px;
+        position: static;
+      "
+    >
+      static
+    </div>
+    <div
+      style="
+        background-color: lightpink;
+        height: 200px;
+        width: 200px;
+        position: relative;
+      "
+    >
+      relative
+      <div
+        style="
+          position: absolute;
+          background-color: red;
+          color: white;
+          bottom: 12px;
+          right: 12px;
+          padding: 12px;
+        "
+      >
+        absolute
+      </div>
+    </div>
+
+    <!-- Example 2 -->
+    <div
+      style="
+        background-color: rgb(40, 40, 40);
+        color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 50px;
+      "
+    >
+      header fixed
+    </div>
+
+    <!-- Example 3 -->
+    <div
+      style="
+        background-color: green;
+        color: white;
+        position: fixed;
+        left: 0;
+        top: 50px;
+        bottom: 0;
+        width: 96px;
+      "
+    >
+      sidebar fixed
+      <div
+        style="
+          position: absolute;
+          background-color: red;
+          color: white;
+          top: 28px;
+          left: 0;
+          padding: 6px;
+        "
+      >
+        absolute
+      </div>
+    </div>
+  </body>
+</html>
