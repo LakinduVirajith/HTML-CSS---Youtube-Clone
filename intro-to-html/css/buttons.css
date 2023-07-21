@@ -48,7 +48,7 @@
   cursor: pointer;
   margin-right: 8px;
   vertical-align: top;
-  transition: box-shadow 0.15s opacity 0.15s;
+  transition: box-shadow 0.15s, opacity 0.15s;
 }
 .tweet-button:hover {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
