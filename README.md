@@ -43,3 +43,23 @@ Ex: vertical-align: top, bottom, middle, baseline;
 
 So basically fallback fonts are used when the current font isn't available.
 Ex: font-family: 'Roboto', 'Open Sans', Helvetica, Arial, sans-serif;
+
+<!-- useful css properties -->
+
+# vertical-align: top;
+
+# object-fit: contain;
+
+# object-position: top;
+
+# transition: opacity 0.15s;
+
+# display: inline-block;
+
+# display: grid;
+
+# grid-template-columns: 100px 100px 1fr;
+
+# column-gap: 20px;
+
+# row-gap: 20px;
