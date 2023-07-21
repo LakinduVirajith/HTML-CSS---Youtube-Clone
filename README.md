@@ -52,7 +52,9 @@ Ex: font-family: 'Roboto', 'Open Sans', Helvetica, Arial, sans-serif;
 
 # object-position: top;
 
-# transition: opacity 0.15s;
+# box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.15);
+
+# transition: box-shadow 0.15s, opacity 0.15s;
 
 # display: inline-block;
 
@@ -63,3 +65,11 @@ Ex: font-family: 'Roboto', 'Open Sans', Helvetica, Arial, sans-serif;
 # column-gap: 20px;
 
 # row-gap: 20px;
+
+# display: flex;
+
+# flex-direction: row
+
+# flex: 1
+
+# flex-shrink: 0;
