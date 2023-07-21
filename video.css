@@ -1,7 +1,3 @@
-.search-bar {
-  display: block;
-}
-
 /* PREVIEW LAYER */ /* 1st LEVEL */
 .video-grid {
   display: grid;
@@ -34,11 +30,6 @@
 }
 
 /* VIDEO INFO LAYER */
-p {
-  font-family: Roboto, Arial;
-  margin-top: 0;
-  margin-bottom: 0;
-}
 .video-title {
   margin-top: 0;
   font-size: 14px;

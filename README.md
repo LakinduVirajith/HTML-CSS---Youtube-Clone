@@ -63,3 +63,9 @@ Ex: font-family: 'Roboto', 'Open Sans', Helvetica, Arial, sans-serif;
 # column-gap: 20px;
 
 # row-gap: 20px;
+
+# display: flex;
+
+# flex-direction: row
+
+# flex: 1
