@@ -79,3 +79,7 @@ Ex: font-family: 'Roboto', 'Open Sans', Helvetica, Arial, sans-serif;
 # border-bottom-style: solid;
 
 # border-bottom-color: rgb(228, 228, 228);
+
+# pointer-events: none;
+
+# white-space: nowrap;
