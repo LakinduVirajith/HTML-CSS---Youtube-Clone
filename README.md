@@ -38,3 +38,8 @@ inherit - It is used to inherit the property from it’s parents’ elements.
 
 vertical-align defines the vertical alignment for the content of a table cell or for an inline element against the rest of the inline flow.
 Ex: vertical-align: top, bottom, middle, baseline;
+
+# font fallback in font-family
+
+So basically fallback fonts are used when the current font isn't available.
+Ex: font-family: 'Roboto', 'Open Sans', Helvetica, Arial, sans-serif;
