@@ -8,7 +8,7 @@
 
 /* THUMBNAIL LAYER */ /* 2nd LEVEL */
 .thumbnail-row {
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   position: relative;
 }
 .thumbnail {
@@ -41,7 +41,7 @@
   vertical-align: top;
 }
 .profile-picture {
-  width: 40px;
+  width: 36px;
   border-radius: 50%;
 }
 
@@ -51,7 +51,7 @@
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
 }
 .video-author,
 .video-starts {
