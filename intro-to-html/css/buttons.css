@@ -1,5 +1,5 @@
 .subscribe-button {
-  background-color: rgb(200, 0, 0);
+  background-color: rgb(40, 40, 40);
   color: white;
   border: none;
   padding: 10px 15px 10px 15px;
@@ -48,11 +48,45 @@
   cursor: pointer;
   margin-right: 8px;
   vertical-align: top;
-  transition: box-shadow 0.15s opacity 0.15s;
+  transition: box-shadow 0.15s, opacity 0.15s;
 }
 .tweet-button:hover {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
 .tweet-button:active {
+  opacity: 0.8;
+}
+
+.send-button {
+  background-color: transparent;
+  color: rgb(10, 188, 100);
+  border: 1px solid rgb(10, 188, 100);
+  border-radius: 2px;
+  padding: 9px 15px;
+  cursor: pointer;
+  margin-right: 8px;
+  vertical-align: top;
+  position: relative;
+  overflow: hidden;
+  transition: color 1s;
+}
+.send-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: rgb(10, 188, 100);
+  z-index: -1;
+  transition: width 1s;
+}
+.send-button:hover {
+  color: white;
+}
+.send-button:hover::before {
+  width: 100%;
+}
+.send-button:active {
   opacity: 0.8;
 }
