@@ -2,11 +2,11 @@
     <h1>HTML-CSS---Youtube-Clone</h1>
     <div style="display: flex; gap: 24px; justify-content: end">
         <a href="https://www.w3.org/html/">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5 Logo" height="50" style="margin-right: 10px;" />
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5 Logo" height="55" style="margin-right: 10px;" />
         </a>
         <!-- CSS LOGO -->
         <a href="https://www.w3schools.com/css/">
-            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3 Logo" height="50" />
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3 Logo" height="55" />
         </a>
     </div>
 </div>
