@@ -1,13 +1,14 @@
-<div style="display: flex; margin-bottom: 16px;">
-    <h1>HTML-CSS---Youtube-Clone:</h1>&nbsp;&nbsp;
-    <!-- HTML LOGO -->
-    <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5 Logo" height="60" style="margin-right: 10px;" />
-    </a>
-    <!-- CSS LOGO -->
-    <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3 Logo" height="60" />
-    </a>
+<div style="display: grid; grid-template-columns: 2fr 1fr; column-gap: 16px; margin-bottom: 16px;">
+    <h1>HTML-CSS---Youtube-Clone</h1>
+    <div style="display: flex; gap: 24px; justify-content: end">
+        <a href="https://www.w3.org/html/">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5 Logo" height="50" style="margin-right: 10px;" />
+        </a>
+        <!-- CSS LOGO -->
+        <a href="https://www.w3schools.com/css/">
+            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3 Logo" height="50" />
+        </a>
+    </div>
 </div>
 
 ---
